@@ -2,29 +2,7 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-.search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-}
-.search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
-  border-radius: 5px;
-  margin: auto;
-  margin-top: 50px;
-  border-right: none;
-}
-.search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
-}
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -83,4 +61,41 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+
+.buy-now{
+  background-color: whitesmoke;
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.buy-now:hover{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.btn-details{
+  background-color: #157347;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-details:hover{
+  background-color: #0B5ED7;
+  color: black;
+  font-weight: bold;
+}
+
+.text-rating{
+  color: #000000;
+}
+.text-black{
+  color: rgb(255, 108, 4);
+}
+.rating{
+  font-weight: bold;
 }
