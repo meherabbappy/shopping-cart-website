@@ -20,14 +20,12 @@ const showProducts = (products) => {
       <h2>Price: $ ${product.price}</h2>
 
       <div class="d-flex rating justify-content-around  border border-3 border-success rounded-pill m-3">
+      
         <span class=" m-1 text-rating fw-bold fs-6">Rating: ${product.rating.rate}</span>
         <span class="m-1 text-black fw-bold fs-6">Reviews : ${product.rating.count}</span>
       </div>
 
-
-
       <button onclick="addToCart(${product.price})" id="addToCart-btn" class="buy-now"><i class="fas fa-cart-plus"></i> Add to cart </button>
-
 
       <button id="details-btn" class="btn-details">Details<i class="fas mx-1 fa-info-circle"></i></button></div>
       `;
@@ -87,5 +85,5 @@ const updateTotal = () => {
     getInputValue("total-tax");
   document.getElementById("total").innerText = grandTotal.toFixed(2);
 };
-updateTotal();
+// updateTotal();
 loadProducts();

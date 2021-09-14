@@ -25,11 +25,13 @@ body {
   margin: 10px;
   transition: 0.6s;
 
+
 }
 .single-product:hover {
   box-shadow: 1px 2px 2px 5px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  background-color: rgb(240, 238, 238);
 }
 .product-image {
   width: 150px;
@@ -37,7 +39,6 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -54,7 +55,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
